@@ -1,0 +1,113 @@
+.principal{
+    width: 1000px;
+    
+    background:  #C9F3FF;
+    border-radius: 20px;
+    box-shadow: gray 15px 15px;
+
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid #CCC;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px #CCC;
+    display: block;
+    text-align: left;
+}
+
+.principal h2{
+    padding: 15px 100px;
+}
+
+.cabecera{
+    background: #26CED1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+    border-bottom: 2px solid black;
+}
+
+.cabecera img{
+    position: relative;
+    float: left;
+    top: -10px;
+}
+
+.cabecera h1{
+    color: #FFF;
+}
+
+.menu{
+    background: #26CEFF;
+    padding: 5px 15px;
+}
+
+.menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    margin-right: 40px;
+    font: bold 15px vardana, sans-serif;
+}
+
+.menu li a{
+    text-decoration: none ;
+    color: white;
+    display: block;
+    font-size: 20px;
+}
+
+.menu li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.seccion{
+    float: left;
+    width: 600px;
+    margin: 20px;
+}
+
+.columna{
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+.links li a{
+    color: #79ab34;
+    text-decoration: none;
+    display: block;
+    padding: 10px 5px;
+    border-bottom: 2px solid #cba4aa;
+}
+.links li a:hover{
+    
+    border-bottom: 2px solid #79ab34;
+    color: black;
+}
+
+.pie_pagina{
+    background: #26CED1;
+    text-align: center;
+    border-top: 2px solid black;
+    color: #FFF;
+    clear: both;
+    height: 25px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 35px;
+}
+
+article{
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #97DE94 ;
+}
+
+article footer{
+    text-align: right;
+}

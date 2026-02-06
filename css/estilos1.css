@@ -1,0 +1,61 @@
+body{
+    background: #FFF;
+}
+
+.principal{
+    background: palevioletred;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid #CCC;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px #CCC;
+    display: block;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #26CED1;
+    padding: 10px;
+    height: 80px;
+    border-radius:  15px  15px 0 0;
+}
+
+/* Estilos para los enlaces de la barra de navegación */
+.navbar a {
+    text-decoration: none;
+    padding: 5px;
+    color: #B0007E ;
+}
+
+/* Estilos para los enlaces cuando se les pasa el mouse por encima */
+.navbar a:hover {
+    color: deeppink;
+    background-color: transparent;
+}
+
+
+.carousel-item{
+    height: 15cm;
+}
+
+.carousel-item img{
+    filter: brightness(40%);
+    position: absolute;
+    width: 100%;
+    height: 15cm;
+    top: 0;
+    left: 0;
+}
+
+.colorP{
+    background: #26CED1;
+    padding: 15px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 5px 5px 8px;
+    display: block;
+    text-align: center;
+}
+
+.cont{
+    margin: 30px;
+}
